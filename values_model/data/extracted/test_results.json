@@ -1,0 +1,975 @@
+{
+    "original_keyword_method": {
+        "count": 3,
+        "statements": [
+            {
+                "sentence_index": 7,
+                "concept": "Aiming therefore at such great things",
+                "evaluation": "positive",
+                "keyword": "attainment",
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things."
+            },
+            {
+                "sentence_index": 10,
+                "concept": "An uninstructed person",
+                "evaluation": "negative",
+                "keyword": "bad",
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others."
+            },
+            {
+                "sentence_index": 12,
+                "concept": "But if it is his pleasure you should act a poor man , a cripple , a governor , or a private person , see",
+                "evaluation": "positive",
+                "keyword": "should",
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally."
+            }
+        ]
+    },
+    "hybrid_no_sentiment": {
+        "count": 19,
+        "statements": [
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "such great things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "a slight tendency",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "the attainment of lesser things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "lesser things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "An uninstructed person",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "the fault of his own bad condition",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "his own bad condition",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "others",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 11,
+                "sentence": "Someone else will hinder or hurt you, when he acts according to his own proper character.",
+                "value_object": "Someone else",
+                "evaluation": "positive",
+                "value_type": "social",
+                "keyword": "proper",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 11,
+                "sentence": "Someone else will hinder or hurt you, when he acts according to his own proper character.",
+                "value_object": "his own proper character",
+                "evaluation": "positive",
+                "value_type": "social",
+                "keyword": "proper",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "act a poor man , a cripple , a governor , or a private person",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.9,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "his pleasure",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "a poor man , a cripple , a governor , or a private person",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "the essence of good",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "good",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "things",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "our own control",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "no room for envy or emulation",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "envy or emulation",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            }
+        ]
+    },
+    "hybrid_with_sentiment": {
+        "count": 38,
+        "statements": [
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "such great things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "a slight tendency",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "the attainment of lesser things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 7,
+                "sentence": "Aiming therefore at such great things, remember that you must not allow yourself to be carried, even with a slight tendency, towards the attainment of lesser things.",
+                "value_object": "lesser things",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "must",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "An uninstructed person",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "the fault of his own bad condition",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "his own bad condition",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 10,
+                "sentence": "An uninstructed person will lay the fault of his own bad condition upon others.",
+                "value_object": "others",
+                "evaluation": "negative",
+                "value_type": "moral",
+                "keyword": "bad",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 11,
+                "sentence": "Someone else will hinder or hurt you, when he acts according to his own proper character.",
+                "value_object": "Someone else",
+                "evaluation": "positive",
+                "value_type": "social",
+                "keyword": "proper",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 11,
+                "sentence": "Someone else will hinder or hurt you, when he acts according to his own proper character.",
+                "value_object": "his own proper character",
+                "evaluation": "positive",
+                "value_type": "social",
+                "keyword": "proper",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "act a poor man , a cripple , a governor , or a private person",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.9,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "his pleasure",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 12,
+                "sentence": "But if it is his pleasure you should act a poor man, a cripple, a governor, or a private person, see that you act it naturally.",
+                "value_object": "a poor man , a cripple , a governor , or a private person",
+                "evaluation": "positive",
+                "value_type": "practical",
+                "keyword": "should",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "the essence of good",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.8,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.80)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "good",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "things",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "our own control",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "no room for envy or emulation",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 14,
+                "sentence": "For, if the essence of good consists in things in our own control, there will be no room for envy or emulation.",
+                "value_object": "envy or emulation",
+                "evaluation": "positive",
+                "value_type": "moral",
+                "keyword": "good",
+                "confidence": 0.7,
+                "extraction_method": "keyword_nlp",
+                "reasoning": "Passed validation checks (confidence: 0.70)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 1,
+                "sentence": "The things in our control are by nature free, unrestrained, unhindered.",
+                "value_object": "The things in our control",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.752,
+                        "pos": 0.248,
+                        "compound": 0.5106
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.8
+                    },
+                    "compound": 0.5106,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 1,
+                "sentence": "The things in our control are by nature free, unrestrained, unhindered.",
+                "value_object": "our control",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.752,
+                        "pos": 0.248,
+                        "compound": 0.5106
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.8
+                    },
+                    "compound": 0.5106,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 1,
+                "sentence": "The things in our control are by nature free, unrestrained, unhindered.",
+                "value_object": "nature",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.752,
+                        "pos": 0.248,
+                        "compound": 0.5106
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.8
+                    },
+                    "compound": 0.5106,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 2,
+                "sentence": "But those not in our control are weak, slavish, restrained, belonging to others.",
+                "value_object": "those not in our control",
+                "evaluation": "negative",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.243,
+                        "neu": 0.757,
+                        "pos": 0.0,
+                        "compound": -0.5927
+                    },
+                    "textblob": {
+                        "polarity": -0.375,
+                        "subjectivity": 0.625
+                    },
+                    "compound": -0.5927,
+                    "evaluation": "negative"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 2,
+                "sentence": "But those not in our control are weak, slavish, restrained, belonging to others.",
+                "value_object": "our control",
+                "evaluation": "negative",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.243,
+                        "neu": 0.757,
+                        "pos": 0.0,
+                        "compound": -0.5927
+                    },
+                    "textblob": {
+                        "polarity": -0.375,
+                        "subjectivity": 0.625
+                    },
+                    "compound": -0.5927,
+                    "evaluation": "negative"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 2,
+                "sentence": "But those not in our control are weak, slavish, restrained, belonging to others.",
+                "value_object": "others",
+                "evaluation": "negative",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.243,
+                        "neu": 0.757,
+                        "pos": 0.0,
+                        "compound": -0.5927
+                    },
+                    "textblob": {
+                        "polarity": -0.375,
+                        "subjectivity": 0.625
+                    },
+                    "compound": -0.5927,
+                    "evaluation": "negative"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 3,
+                "sentence": "Remember, then, that if you suppose that things which are slavish by nature are also free, then you will be hindered.",
+                "value_object": "things which are slavish by nature",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.858,
+                        "pos": 0.142,
+                        "compound": 0.5106
+                    },
+                    "textblob": {
+                        "polarity": 0.1,
+                        "subjectivity": 0.45
+                    },
+                    "compound": 0.5106,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 3,
+                "sentence": "Remember, then, that if you suppose that things which are slavish by nature are also free, then you will be hindered.",
+                "value_object": "nature",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.858,
+                        "pos": 0.142,
+                        "compound": 0.5106
+                    },
+                    "textblob": {
+                        "polarity": 0.1,
+                        "subjectivity": 0.45
+                    },
+                    "compound": 0.5106,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 4,
+                "sentence": "You will lament, you will be disturbed, and you will find fault both with gods and men.",
+                "value_object": "fault both with gods and men",
+                "evaluation": "negative",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.372,
+                        "neu": 0.628,
+                        "pos": 0.0,
+                        "compound": -0.8074
+                    },
+                    "textblob": {
+                        "polarity": 0.0,
+                        "subjectivity": 0.0
+                    },
+                    "compound": -0.8074,
+                    "evaluation": "negative"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 4,
+                "sentence": "You will lament, you will be disturbed, and you will find fault both with gods and men.",
+                "value_object": "gods and men",
+                "evaluation": "negative",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.372,
+                        "neu": 0.628,
+                        "pos": 0.0,
+                        "compound": -0.8074
+                    },
+                    "textblob": {
+                        "polarity": 0.0,
+                        "subjectivity": 0.0
+                    },
+                    "compound": -0.8074,
+                    "evaluation": "negative"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 8,
+                "sentence": "But if you would both have these great things, along with power and riches, then you will not gain even the latter.",
+                "value_object": "these great things ,",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.111,
+                        "neu": 0.577,
+                        "pos": 0.311,
+                        "compound": 0.8218
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.375
+                    },
+                    "compound": 0.8218,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 8,
+                "sentence": "But if you would both have these great things, along with power and riches, then you will not gain even the latter.",
+                "value_object": "power and riches",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.111,
+                        "neu": 0.577,
+                        "pos": 0.311,
+                        "compound": 0.8218
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.375
+                    },
+                    "compound": 0.8218,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 8,
+                "sentence": "But if you would both have these great things, along with power and riches, then you will not gain even the latter.",
+                "value_object": "even the latter",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.111,
+                        "neu": 0.577,
+                        "pos": 0.311,
+                        "compound": 0.8218
+                    },
+                    "textblob": {
+                        "polarity": 0.4,
+                        "subjectivity": 0.375
+                    },
+                    "compound": 0.8218,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "anyone eminent in honors , or power , or in high esteem on any other account",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "honors , or power ,",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "high esteem on any other account",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "any other account",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "heed not to be hurried away with the appearance , and",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            },
+            {
+                "sentence_index": 13,
+                "sentence": "When, therefore, you see anyone eminent in honors, or power, or in high esteem on any other account, take heed not to be hurried away with the appearance, and to pronounce him happy.",
+                "value_object": "the appearance",
+                "evaluation": "positive",
+                "value_type": "sentiment_implicit",
+                "sentiment_scores": {
+                    "vader": {
+                        "neg": 0.0,
+                        "neu": 0.816,
+                        "pos": 0.184,
+                        "compound": 0.7906
+                    },
+                    "textblob": {
+                        "polarity": 0.2783333333333334,
+                        "subjectivity": 0.6383333333333333
+                    },
+                    "compound": 0.7906,
+                    "evaluation": "positive"
+                },
+                "confidence": 0.9,
+                "extraction_method": "sentiment_analysis",
+                "reasoning": "Passed validation checks (confidence: 0.90)",
+                "validation_status": "validated"
+            }
+        ]
+    },
+    "comparison_summary": {
+        "original_count": 3,
+        "hybrid_no_sentiment_count": 19,
+        "hybrid_with_sentiment_count": 38,
+        "improvement_with_sentiment": 35
+    }
+}
